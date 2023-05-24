@@ -1,14 +1,14 @@
 import * as React from "react"
 
+import Hero from '../components/Hero'
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
 
 const IndexPage = () => (
   <Layout>
-      <h1>
-        Welcome to <b>Gatsby!</b>
-      </h1>
+      <Seo title="Home" />
+      <Hero />
      
   </Layout>
 )
