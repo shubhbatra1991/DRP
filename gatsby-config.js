@@ -11,7 +11,7 @@ module.exports = {
   siteMetadata: {
     title: `My Travle list`,
     description: `The place i will like to visit again in  my life.`,
-    author: `@gatsbyjs`,
+    author: `saurabh`,
   },
   plugins: [
     `gatsby-plugin-image`,
@@ -40,7 +40,7 @@ module.exports = {
         start_url: `/`,
         background_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/assets/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-transformer-json`,
