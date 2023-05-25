@@ -8,14 +8,15 @@ export const StatsData = [
         icon: (<GiEarthAmerica 
                     css={`
                             color: #047bf1;
-                            `} 
+                        `} 
                 />),
         title: "Over 100 destinations",
         desc: "travel to over 100 unique places"
     },
     {
-        icon: (<MdAirplanemodeActive css={`
-                    color: #f3a82e;
+        icon: (<MdAirplanemodeActive 
+                    css={`
+                        color: #f3a82e;
                     `} 
                 />),
         title: "10 Million Trips made",
@@ -33,10 +34,10 @@ export const StatsData = [
     {
         icon: (<FaMoneyCheck 
                         css={`
-                        color: #3af576;
+                            color: #3af576;
                         `} 
                 />),
         title: "Best Deals",
         desc: "We offer the best prices."
-    }
+    },
 ];
