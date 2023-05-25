@@ -33,18 +33,22 @@ export const StatusWrapper = styled.div`
 `;
 
 export const StatusBox = styled.div`
-height: 100%
+    height: 100%;
+    width: 100%;
+    padding: 2rem;
 `;
 
 
 export const Icon = styled.div`
-
+    font-size: 3rem;
+    margin-bottom: 1rem;
 `;
 
-export const Title = styled.div`
-
+export const Title = styled.p`
+    font-size: clamp(1rem, 2.5vw, 1.5rem);
+    margin-bottom: 0.5rem;
 `;
 
-export const Desc = styled.div`
-
+export const Desc = styled.p`
+    font-size: 1.5rem;
 `;
