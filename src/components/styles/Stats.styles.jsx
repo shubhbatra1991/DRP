@@ -49,6 +49,6 @@ export const Title = styled.p`
     margin-bottom: 0.5rem;
 `;
 
-export const Desc = styled.p`
+export const Description = styled.p`
     font-size: 1.5rem;
 `;

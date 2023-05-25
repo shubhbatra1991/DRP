@@ -6,29 +6,29 @@ import {
     StatusBox,
     Icon,
     Title,
-    Desc,
-} from './styles/Status.styles.jsx'
-import { StatsData } from '../Data/StatsData'
+    Description,
+} from './styles/Stats.styles'
+import {StatsData} from '../Data/StatsData'
 
-const Status = () => {
+const Stats = () => {
   return (
     <StatusContainer>
         <StatusHeading>
-            why us?
+            Why Choose Us?
         </StatusHeading>
         <StatusWrapper>
-            { StatsData.map((item, index)=> {
+            {StatsData.map((item, index)=> {
                 return (
                     <StatusBox key={index}>
                         <Icon>{item.icon}</Icon>
                         <Title>{item.title}</Title>
-                        <Desc>{item.desc}</Desc>
+                        <Description>{item.desc}</Description>
                     </StatusBox>
                 )
             })}
         </StatusWrapper>
     </StatusContainer>
   )
-}
+};
 
-export default Status;
+export default Stats;
