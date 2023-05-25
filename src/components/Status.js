@@ -8,32 +8,7 @@ import {
     Title,
     Desc,
 } from './styles/Status.styles.jsx'
-import { GiEarthAmerica } from 'react-icons/gi'
-import { MdAirplanemodeActive, MdTimer } from 'react-icons/md'
-import { FaMoneyCheck } from 'react-icons/fa'
-
-const StatsData = [
-    {
-        icon: (<GiEarthAmerica />),
-        title: "Over 100 destinations",
-        desc: "travel to over 100 unique places"
-    },
-    {
-        icon: (<MdAirplanemodeActive />),
-        title: "10 Million Trips made",
-        desc: "Over 100 million trips completed last year"
-    },
-    {
-        icon: (<MdTimer />),
-        title: "Fastest Support",
-        desc: "travel to over 100 unique places"
-    },
-    {
-        icon: (<FaMoneyCheck />),
-        title: "Best Deals",
-        desc: "We offer the best prices."
-    },
-]
+import { StatsData } from '../Data/StatsData'
 
 const Status = () => {
   return (
@@ -42,7 +17,7 @@ const Status = () => {
             why us?
         </StatusHeading>
         <StatusWrapper>
-            {StatsData.map((item, index)=> {
+            { StatsData.map((item, index)=> {
                 return (
                     <StatusBox key={index}>
                         <Icon>{item.icon}</Icon>
@@ -56,4 +31,4 @@ const Status = () => {
   )
 }
 
-export default Status
+export default Status;
