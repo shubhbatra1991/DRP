@@ -2,8 +2,8 @@ import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 
 import {
-    ProductsContainer,
-    ProductsHeading,
+    ProductContainer,
+    ProductHeading,
     ProductWrapper,
     ProductCard,
     ProductInfo,
@@ -12,8 +12,8 @@ import {
     ProductImg,
 } from './styles/Trips.styles.jsx';
 
-import { Button } from './Button'
-import { ImLocation } from 'react-icons/im'
+import { Button } from './Button';
+import { ImLocation } from 'react-icons/im';
 
 const Trips = ({ heading }) => {
     const data = useStaticQuery(graphql`
@@ -35,7 +35,7 @@ const Trips = ({ heading }) => {
             }
         }
     }
-`)
+`);
 
 
 function getTrips(data) {
@@ -44,8 +44,9 @@ function getTrips(data) {
         tripsArray.push(
             <ProductCard key={index}>
                 <ProductImg
-                     alt={item.node.alt}
-                     fluid={item.node.img.childImageSharp.fluid} />
+                    src={item.node.img.childImageSharp.fluid.src}
+                    alt={item.node.alt}
+                    fluid={item.node.img.childImageSharp.fluid} />
 
                 <ProductInfo>
                     <TextWrap>
@@ -63,7 +64,9 @@ function getTrips(data) {
                                 top: 420px;
                                 font-size: 14px;                        
                             `}
-                        >{item.node.button}</Button>
+                        >
+                            {item.node.button}
+                        </Button>
                 </ProductInfo>
             </ProductCard>
         )
@@ -73,15 +76,15 @@ function getTrips(data) {
 
 
   return (
-    <ProductsContainer>
-        <ProductsHeading>
+    <ProductContainer>
+        <ProductHeading>
            {heading}
-        </ProductsHeading>
+        </ProductHeading>
         <ProductWrapper>
                {getTrips(data)}     
         </ProductWrapper>
-    </ProductsContainer>
+    </ProductContainer>
   )
-}
+};
 
 export default Trips;

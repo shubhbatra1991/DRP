@@ -7,7 +7,7 @@ export const Nav = styled.nav`
   height: 80px;
   display: flex;
   justify-content:  space-between;
-  padding: 0.5rem calc((100vw-1300px)/2);
+  padding: 0.5rem calc((100vw - 1300px) / 2);
   z-index:100;
   position: relative;
 `
@@ -26,7 +26,7 @@ export const Bars = styled(FaBars)`
   display: none;
   color: #fff;
 
-  @media screen and (max-width: 760px){
+  @media screen and (max-width: 768px){
     display: block;
     position: absolute;
     top: 0;
@@ -49,7 +49,7 @@ export const NavMenu = styled.div`
 export const NavBtn = styled.div`
     display:  flex;
     align-items: center;
-    margin-rught: 24px;
+    margin-right: 24px;
 
     @media screen and (max-width: 768px) {
         display: none;

@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 export const Container = styled.div`
     background: #0C0C0C;
@@ -12,14 +12,14 @@ export const Container = styled.div`
     margin-top: -80px;
 
     :before {
-        content: "",
+        content: "";
         position: absolute;
         top:  0;
         bottom: 0;
         right: 0;
         left: 0;
-        z-indexx: 2;
-        background: linear-gradient(
+        z-index: 2;
+        /* background: linear-gradient(
                                     180deg, 
                                     rgba(0,0,0,0.2) 0%, 
                                     rgba(0,0,0,0.6) 100%
@@ -27,8 +27,8 @@ export const Container = styled.div`
                                     linear-gradient(
                                         180deg, 
                                         rgba(0,0,0,0.2) 0%, 
-                                        transparent 100%
-                                    );
+                                        transparent 50%
+                                    ); */
     }
 `;
 
@@ -53,16 +53,16 @@ export const VideoBg = styled.video`
 
 export const HeroContent = styled.div`
     z-index: 3;
-    height: calc(100vh-80px);
+    height: calc(100vh - 80px);
     max-height: 100%;
-    padding: 0rem calc((100vw-130px)/2);
+    padding: 0rem calc((100vw - 130px)/2);
 `;
 
 export const HeroItems = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-itmes: center;
+    align-items: center;
     text-align: center;
     height: 100vh;
     max-height: 100%;
@@ -83,4 +83,5 @@ export const HeroP = styled.p`
     font-size: clamp(1rem, 3vw, 3rem);
     margin-bottom: 2rem;
     font-weight: 400;
+    color: aqua;
 `;

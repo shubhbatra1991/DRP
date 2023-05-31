@@ -1,4 +1,4 @@
-import * as React from "react"
+import * as React from "react";
 
 import { 
   Nav, 
@@ -6,10 +6,10 @@ import {
   Bars,
   NavMenu,
   NavBtn,
-} from './styles/HeaderStyles.jsx'
-import { Button } from './Button'
+} from './styles/HeaderStyles.jsx';
+import { Button } from './Button';
 
-import { MenuData } from '../Data/MenuData'
+import { MenuData } from '../Data/MenuData';
 
 const Header = () => {
   return (
@@ -30,6 +30,6 @@ const Header = () => {
       </NavBtn>
     </Nav>
   )
-}
+};
 
-export default Header
+export default Header;

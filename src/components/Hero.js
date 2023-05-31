@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import {
     Container,
     HeroBg,
@@ -7,15 +7,15 @@ import {
     HeroItems,
     HeroH1,
     HeroP,
-} from './styles/HeroContain.jsx'
-import { Button } from './Button'
-import Video from '../assets/videos/bg.mp4'
+} from './styles/HeroContain.jsx';
+import { Button } from './Button';
+import Video from '../assets/videos/bg.mp4';
 
 const Hero = () => {
   return (
     <Container>
         <HeroBg>
-            <VideoBg src={Video} type="video/mp4" autoplay loop muted playsInLine />
+            <VideoBg src={Video} type="video/mp4" autoPlay loop muted playsInLine />
         </HeroBg>
         <HeroContent>
             <HeroItems>
@@ -26,7 +26,7 @@ const Hero = () => {
                 <Button primary="true" big="true" round="true" to="/trips">Travel Now !</Button>
             </HeroItems>
         </HeroContent>
-    </Container>
+    </Container> 
   )
 }
 

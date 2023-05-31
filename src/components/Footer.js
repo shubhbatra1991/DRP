@@ -40,7 +40,6 @@ const Footer = () => {
                 <FooterLink to="/">FGTR</FooterLink>
                 <FooterLink to="/">DFRE</FooterLink>
             </FooterItems>
-
         </FooterWrapper>
 
         <FooterWrapper>
@@ -54,7 +53,6 @@ const Footer = () => {
                 <FooterLink to="/">FGTR</FooterLink>
                 <FooterLink to="/">GFTR</FooterLink>
             </FooterItems>
-
         </FooterWrapper>
     </FooterContainer>
   )

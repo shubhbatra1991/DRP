@@ -2,15 +2,15 @@ import styled from 'styled-components';
 import Img from 'gatsby-image';
 
 
-export const ProductsContainer = styled.div`
+export const ProductContainer = styled.div`
     min-height: 100vh;
-    padding: 5rem calc((100vw-1300px)/2);
+    padding: 5rem calc((100vw - 1300px) / 2);
     color: #fff;
+    background:  #fff;
 `;
 
-export const ProductsHeading = styled.div`
+export const ProductHeading = styled.div`
     font-size: clamp(1.2rem, 5vw, 3rem);
-    margin-top: 3rem;
     margin-bottom: 5rem;
     text-align: center;
     color: #000;
@@ -18,17 +18,17 @@ export const ProductsHeading = styled.div`
 
 export const ProductWrapper = styled.div`
     display: grid;
-    grid-template-column: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
     justify-items: center;
     padding: 0 2rem;
 
     @media screen and (max-width: 1200px){
-        grid-template-column: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
     }
 
     @media screen and (max-width: 868px){
-        grid-template-column: 1fr;
+        grid-template-columns: 1fr;
     }
 `;
 
@@ -44,7 +44,7 @@ export const ProductCard = styled.div`
 export const ProductImg =styled(Img)`
     height: 100%;
     max-width: 100%;
-    position: relative;
+    position: absolute;
     border-radius: 10px;
     filter: brightness(70%);
     transition: 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
