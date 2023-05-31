@@ -1,9 +1,9 @@
-import styled from 'styled-components'
-import EmailBg from '../../assets/images/email.jpg'
+import styled from 'styled-components';
+import EmailBg from '../../assets/images/email2.jpg';
 
 
 export const EmailContainer =styled.div`
-    background: linear-gradient(180deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 35%, rgba(0,0,0,0.1) 100%,), url(${EmailBg}) no-repeat center;
+    background: linear-gradient(180deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 35%, rgba(0,0,0,0.1) 100%), url(${EmailBg}) no-repeat center;
     background-size: cover;
     height: 450px;
     width: 100%;

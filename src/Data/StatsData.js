@@ -5,34 +5,34 @@ import { FaMoneyCheck } from 'react-icons/fa';
 
 export const StatsData = [
     {
-        icon: (<GiEarthAmerica 
+        icon: (<GiEarthAmerica
                     css={`
                             color: #047bf1;
                         `} 
                 />),
         title: "Over 100 destinations",
-        desc: "travel to over 100 unique places"
+        desc: "Travel to over 100 amazing places"
     },
     {
-        icon: (<MdAirplanemodeActive 
+        icon: (<MdAirplanemodeActive
                     css={`
                         color: #f3a82e;
                     `} 
                 />),
-        title: "10 Million Trips made",
-        desc: "Over 100 million trips completed last year"
+        title: "1K Trips made",
+        desc: "Over 100K trips completed last year"
     },
     {
-        icon: (<MdTimer 
+        icon: (<MdTimer
                     css={`
                         color: #f34f2e;
                     `} 
                 />),
         title: "Fastest Support",
-        desc: "travel to over 100 unique places"
+        desc: "24/7 Support asvailable."
     },
     {
-        icon: (<FaMoneyCheck 
+        icon: (<FaMoneyCheck
                         css={`
                             color: #3af576;
                         `} 

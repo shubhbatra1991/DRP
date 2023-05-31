@@ -9,7 +9,6 @@ export const FooterContainer = styled.div`
     grid-template-columns: repeat(2, 1fr);
 `;
 
-
 export const FooterWrapper = styled.div`
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -18,7 +17,6 @@ export const FooterWrapper = styled.div`
         grid-template-columns: 1fr;
     }
 `;
-
 
 export const FooterDesc= styled.div`
     padding: 0 2rem;
@@ -32,7 +30,6 @@ export const FooterDesc= styled.div`
         padding: 1rem;
     }
 `;
-
 
 export const FooterItems = styled.div`
     display: flex;
@@ -50,7 +47,6 @@ export const FooterLinkTitle= styled.h2`
     font-size: 14px;
     margin-bottom: 16px;
 `;
-
 
 export const FooterLink = styled(Link)`
     text-decoration: none;

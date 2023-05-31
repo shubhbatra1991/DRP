@@ -6,9 +6,8 @@ export const Container = styled.div`
     width: 100%;
     background: #fcfcfc;
     color: #000;
-    padding: 5rem calc((100vw -1300px)/2);
+    padding: 5rem calc((100vw - 1300px) / 2);
     height: 100%;
-
 `;
 
 export const TopLine = styled.p`
@@ -19,7 +18,7 @@ export const TopLine = styled.p`
 `;
 
 
-export const  Description = styled.p`
+export const Description = styled.p`
     text-align: start;
     padding-left: 2rem;
     margin-bottom: 4rem;
@@ -30,33 +29,29 @@ export const  Description = styled.p`
 
 export const ContentWrapper = styled.div`
     display: grid;
-    grid-template-column: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     padding: 0 2rem;
 
     @media screen and (max-width: 768px){
-        grid-template-column: 1fr;
+        grid-template-columns: 1fr;
     }
 `;
-
 
 export const ColumnOne = styled.div`
     display: grid;
     grid-template-rows: 1fr 1fr;
 `;
 
-
 export const ColumnTwo = styled.div`
     display: grid;
-    grid-template-column: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     margin-top: 2rem;
     grid-gap: 10px;
 
     @media screen and (max-width: 500px){
-        grid-template-column: 1fr;
+        grid-template-columns: 1fr;
     }
-
 `;
-
 
 export const Testimonial = styled.div`
     padding-top: 1rem;
@@ -76,5 +71,4 @@ export const Testimonial = styled.div`
 export const Images = styled(Img)`
     border-radius: 10px;
     height: 100%;
-
 `;

@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import {
     StatusContainer,
     StatusHeading,
@@ -7,8 +7,9 @@ import {
     Icon,
     Title,
     Description,
-} from './styles/Stats.styles'
-import {StatsData} from '../Data/StatsData'
+} from './styles/Stats.styles';
+
+import {StatsData} from '../Data/StatsData';
 
 const Stats = () => {
   return (

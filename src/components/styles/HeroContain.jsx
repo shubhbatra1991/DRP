@@ -26,7 +26,7 @@ export const Container = styled.div`
                                     ),
                                     linear-gradient(
                                         180deg, 
-                                        rgba(0,0,0,0.2) 0%, 
+                                        rgba(0,0,0,0.1) 0%, 
                                         transparent 50%
                                     ); */
     }
@@ -49,13 +49,14 @@ export const VideoBg = styled.video`
     height: 100%;
     -o-object-fit: cover;
     object-fit: cover;
+    transform: translateZ(0);
 `;
 
 export const HeroContent = styled.div`
     z-index: 3;
     height: calc(100vh - 80px);
     max-height: 100%;
-    padding: 0rem calc((100vw - 130px)/2);
+    /* padding: 0rem calc((100vw - 130px)/2); */
 `;
 
 export const HeroItems = styled.div`

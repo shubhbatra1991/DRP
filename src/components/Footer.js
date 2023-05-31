@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import {
     FooterContainer,
     FooterWrapper,
@@ -6,7 +6,7 @@ import {
     FooterItems,
     FooterLinkTitle,
     FooterLink,
-} from './styles/Footer.styles'
+} from './styles/Footer.styles';
 
 
 const Footer = () => {
@@ -15,7 +15,7 @@ const Footer = () => {
         <FooterWrapper>
             <FooterDesc>
                 <h1>DRP</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In enim libero architecto doloremque quos! Nobis, dolor suscipit? Voluptatem tempore rerum corporis, beatae atque ab incidunt, ipsum quia porro, aspernatur esse.</p>
+                <p>I live to enjoy and show what exists real out there.</p>
             </FooterDesc>
             <FooterItems>
                 <FooterLinkTitle>
@@ -34,28 +34,24 @@ const Footer = () => {
                 <FooterLinkTitle>
                     Videos
                 </FooterLinkTitle>
-                <FooterLink to="/">YT</FooterLink>
-                <FooterLink to="/">DCVF</FooterLink>
-                <FooterLink to="/">DCVF</FooterLink>
-                <FooterLink to="/">FGTR</FooterLink>
-                <FooterLink to="/">DFRE</FooterLink>
+                <FooterLink to="/">Agency</FooterLink>
+                <FooterLink to="/">Ambassadors</FooterLink>
+                <FooterLink to="/">Influencer</FooterLink>
+                <FooterLink to="/">Content Creator</FooterLink>
             </FooterItems>
-        </FooterWrapper>
 
-        <FooterWrapper>
             <FooterItems>
                 <FooterLinkTitle>
-                    SNS
+                    Social Media
                 </FooterLinkTitle>
-                <FooterLink to="/">RTYTE</FooterLink>
-                <FooterLink to="/">rrrr</FooterLink>
-                <FooterLink to="/">TREF</FooterLink>
-                <FooterLink to="/">FGTR</FooterLink>
-                <FooterLink to="/">GFTR</FooterLink>
+                <FooterLink to="/">Facebook</FooterLink>
+                <FooterLink to="/">Instagram</FooterLink>
+                <FooterLink to="/">Youtube</FooterLink>
+                <FooterLink to="/">Twitter</FooterLink>
             </FooterItems>
         </FooterWrapper>
     </FooterContainer>
   )
-}
+};
 
-export default Footer
+export default Footer;

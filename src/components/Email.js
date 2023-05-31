@@ -1,10 +1,11 @@
-import React from 'react'
-import { Button } from './Button'
+import React from 'react';
+import { Button } from './Button';
 import {
     EmailContainer,
     EmailContent,
     FormWrap,
-} from './styles/Email.styles'
+} from './styles/Email.styles';
+
 
 const Email = () => {
   return (
@@ -14,7 +15,7 @@ const Email = () => {
             <p>Sign up for newsletter to get a good discount on next booking!</p>
             <form action="#">
                 <FormWrap>
-                    <label htmlfor="email">
+                    <label htmlFor="email">
                         <input type="email" placeholder="Enter your email" id="email"  />
                     </label>
                     <Button 
@@ -43,6 +44,6 @@ const Email = () => {
         </EmailContent>
     </EmailContainer>
   )
-}
+};
 
-export default Email
+export default Email;
