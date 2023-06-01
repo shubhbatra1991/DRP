@@ -56,7 +56,7 @@ const Testimonials = () => {
                         `}
                  />
                  <h3>Sara Rajput</h3>
-                <p>"Thanks to this amazing travel website, I discovered hidden gems and had the most unforgettable vacation of my life!"</p>
+                <p>"Thanks to the YT Vlog, I discovered hidden gems and had the most unforgettable vacation of my life!"</p>
             </Testimonial>
 
             <Testimonial>
@@ -67,7 +67,7 @@ const Testimonials = () => {
                         margin-bottom: 1rem;
                     `} />
                     <h3>Michael B.</h3>
-                <p>"I used this travel website for my recent trip, and it made booking flights and accommodations a breeze. Highly recommended!"</p>
+                <p>"Thanks to Saurabh for sharing such a wondeful list that I can use on my next visit. Cheers !!"</p>
                 
             </Testimonial>
             </ColumnOne>
