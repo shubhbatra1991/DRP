@@ -26,7 +26,7 @@ const Header = () => {
         )) }
       </NavMenu>
       <NavBtn>
-        <Button primary="true" round="true" to="/trips"> Book a flight</Button>
+        <Button primary="true" round="true" to="/trips"> Explore Delhi </Button>
       </NavBtn>
     </Nav>
   )
