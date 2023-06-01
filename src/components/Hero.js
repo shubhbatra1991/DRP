@@ -20,9 +20,9 @@ const Hero = () => {
         <HeroContent>
             <HeroItems>
                 <HeroH1>
-                    Real Destinations
+                    Best Places to visit in Delhi
                 </HeroH1>
-                <HeroP> Out of the world</HeroP>
+                <HeroP> The capital of India</HeroP>
                 <Button primary="true" big="true" round="true" to="/trips">Travel Now !</Button>
             </HeroItems>
         </HeroContent>

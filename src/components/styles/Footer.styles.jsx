@@ -4,8 +4,8 @@ import { Link } from 'gatsby';
 export const FooterContainer = styled.div`
     padding: 5rem calc((100vw - 1100px)/2);
     display: grid;
-    color: #000;
-    background: #fafafb;
+    color: white;
+    background: black;
     grid-template-columns: repeat(2, 1fr);
 `;
 
@@ -23,7 +23,7 @@ export const FooterDesc= styled.div`
 
     h1{
         margin-bottom: 3rem;
-        color: #f26a2e;
+        color: white;
     }
 
     @media screen and (max-width: 400px){
@@ -52,7 +52,7 @@ export const FooterLink = styled(Link)`
     text-decoration: none;
     margin-bottom: 0.5rem;
     font-size: 14px;
-    color: #3d3d4e;
+    color: #fff;
 
     &:hover {
         color: #f26a2e;

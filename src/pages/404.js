@@ -1,15 +1,24 @@
-import * as React from "react"
+import * as React from "react";
+import Layout from "../components/layout";
+import Seo from "../components/seo";
+import { ErrorContainer, TextContainer } from "../components/styles/ErrorContainer";
 
-import Layout from "../components/layout"
-import Seo from "../components/seo"
 
 const NotFoundPage = () => (
-  <Layout>
-    <h1>404: Not Found</h1>
-    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+
+  <Layout >
+    <ErrorContainer>
+  
+        <h1>404</h1>
+        <TextContainer>
+          <p>You just hit a route that doesn&#39;t exist...</p>
+          <a href="/">Go to Home</a>
+          </TextContainer>
+
+    </ErrorContainer>
   </Layout>
 )
 
 export const Head = () => <Seo title="404: Not Found" />
 
-export default NotFoundPage
+export default NotFoundPage;

@@ -3,14 +3,15 @@ import { FaBars } from 'react-icons/fa';
 import { Link } from "gatsby";
 
 export const Nav = styled.nav`
-  background: transparent;
+  background: black;
+  opacity: 0.5;
   height: 80px;
   display: flex;
   justify-content:  space-between;
   padding: 0.5rem calc((100vw - 1300px) / 2);
   z-index:100;
   position: relative;
-`
+`;
 
 export const NavLink = styled(Link)`
   color: #fff;
@@ -20,7 +21,7 @@ export const NavLink = styled(Link)`
   padding: 0 1rem;
   height: 100%;
   cursor: pointer;
-`
+`;
 
 export const Bars = styled(FaBars)`
   display: none;
@@ -35,7 +36,7 @@ export const Bars = styled(FaBars)`
     font-size: 1.8rem;
     cursor: pointer;
   }
-`
+`;
 
 export const NavMenu = styled.div`
     display: flex;
@@ -45,7 +46,10 @@ export const NavMenu = styled.div`
     @media screen and (max-width: 768px){
         display: none;
     }
-`
+    
+`;
+
+
 export const NavBtn = styled.div`
     display:  flex;
     align-items: center;

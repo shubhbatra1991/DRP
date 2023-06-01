@@ -23,7 +23,6 @@ const Footer = () => {
                 </FooterLinkTitle>
                 <FooterLink to="/about">Contact</FooterLink>
                 <FooterLink to="/career">Careers</FooterLink>
-                <FooterLink to="/">Support</FooterLink>
                 <FooterLink to="/">Destinations</FooterLink>
                 <FooterLink to="/">Blogs</FooterLink>
             </FooterItems>
@@ -34,9 +33,9 @@ const Footer = () => {
                 <FooterLinkTitle>
                     Videos
                 </FooterLinkTitle>
-                <FooterLink to="/">Agency</FooterLink>
-                <FooterLink to="/">Ambassadors</FooterLink>
-                <FooterLink to="/">Influencer</FooterLink>
+                <FooterLink to="/">Beautiful India</FooterLink>
+                <FooterLink to="/"> Best Places</FooterLink>
+                <FooterLink to="/">Influencer's Thoughts</FooterLink>
                 <FooterLink to="/">Content Creator</FooterLink>
             </FooterItems>
 

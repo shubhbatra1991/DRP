@@ -1,0 +1,98 @@
+[
+    {
+        "img": "../assets/images/travel-1.jpg",
+        "alt": "India Gate",
+        "name":  "India Gate",
+        "button": "View Destination"
+    },
+    {
+        "img": "../assets/images/travel-2.jpg",
+        "alt": "Qutub Minar",
+        "name":  "Qutub Minar",
+        "button": "View Destination"
+    },
+    {
+        "img": "../assets/images/travel-3.jpg",
+        "alt": "Humayun Tomb",
+        "name":  "Humayun Tomb",
+        "button": "View Destination"
+    },
+    {
+        "img": "../assets/images/travel-4.jpg",
+        "alt": "Akshardham Temple",
+        "name":  "Akshardham Temple",
+        "button": "View Destination"
+    },
+    {
+        "img": "../assets/images/lotus-temple.jpg",
+        "alt": "The Lotus Temple",
+        "name":  "The Lotus Temple",
+        "button": "View Destination"
+    },
+    {
+        "img": "../assets/images/jama-masjid.jpg",
+        "alt": "Jama Masjid",
+        "name":  "Jama Masjid",
+        "button": "View Destination"
+    },
+    {
+        "img": "../assets/images/oldFort.jpg",
+        "alt": "The Old Fort",
+        "name":  "The Old Fort",
+        "button": "View Destination"
+    },
+    {
+        "img": "../assets/images/rajpath.jpg",
+        "alt": "The King's Way",
+        "name":  "The King's Way",
+        "button": "View Destination"
+    },
+    {
+        "img": "../assets/images/sahib.jpg",
+        "alt": "Gurudwara Bangla Sahib",
+        "name":  "Gurudwara Bangla Sahib",
+        "button": "View Destination"
+    },
+    {
+        "img": "../assets/images/lodiGardens.jpg",
+        "alt": "The Lodi Gardens",
+        "name":  "The Lodi Gardens",
+        "button": "View Destination"
+    },
+    {
+        "img": "../assets/images/gandhi-smriti.jpg",
+        "alt": "Gandhi Smriti",
+        "name":  "Gandhi Smriti",
+        "button": "View Destination"
+    },
+    {
+        "img": "../assets/images/jantar-mantar.jpg",
+        "alt": "Jantar Mantar",
+        "name":  "Jantar Mantar",
+        "button": "View Destination"
+    },
+    {
+        "img": "../assets/images/redfort.jpg",
+        "alt": "The Red Fort",
+        "name":  "The Red Fort",
+        "button": "View Destination"
+    },
+    {
+        "img": "../assets/images/national-museum.jpg",
+        "alt": "National Museum",
+        "name":  "National Museum",
+        "button": "View Destination"
+    },
+    {
+        "img": "../assets/images/national-rail-museum.jpg",
+        "alt": "The National Rail Museum",
+        "name":  "The National Rail Museum",
+        "button": "View Destination"
+    },
+    {
+        "img": "../assets/images/national-zoological-park.jpg",
+        "alt": "National Zoological Park",
+        "name":  "National Zoological Park",
+        "button": "View Destination"
+    }
+]

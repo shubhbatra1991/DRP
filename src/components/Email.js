@@ -11,8 +11,8 @@ const Email = () => {
   return (
     <EmailContainer>
         <EmailContent>
-            <h1>Get Access to Exclusive offers</h1>
-            <p>Sign up for newsletter to get a good discount on next booking!</p>
+            <h1>Get Access to Beautful Destinations in India</h1>
+            <p>Sign up for newsletter to get a copy of best places to visit. </p>
             <form action="#">
                 <FormWrap>
                     <label htmlFor="email">
