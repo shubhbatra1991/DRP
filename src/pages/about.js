@@ -2,15 +2,19 @@ import * as React from "react"
 
 import Layout from "../components/layout";
 
-import { AboutContainer, Description, ImageBg, ContainerTwo } from "../components/styles/About.styles";
-import About2 from '../assets/images/about2.jpg';
+import { AboutContainer, Description, HeroBg, VideoBg } from "../components/styles/About.styles";
+import Video from '../assets/videos/bg2.mp4';
 
 
 const About = () => {
 
   return (
   <Layout>
+       <HeroBg>
+            <VideoBg src={Video} type="video/mp4" autoPlay loop muted playsInline preload="auto" />
+        </HeroBg>
     <AboutContainer>
+ 
       <Description>
           <h1>About Me</h1>
           <p>Hello Everyone,

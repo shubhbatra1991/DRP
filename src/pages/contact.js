@@ -1,13 +1,14 @@
 import * as React from "react"
 
 import Layout from "../components/layout"
-import Seo from "../components/seo"
+
+import { 
+
+} from '../components/styles/Contact.styles';
 
 
 const Contact = () => (
   <Layout>
-      <Seo title="Home" />
-      Contact
      
   </Layout>
 )

@@ -3,10 +3,23 @@ import { styled } from "styled-components";
 
 export const AboutContainer = styled.div`
     display: flex;
-    height: 100vh;
+    min-height: 100vh;
+    height: auto;
     padding: 0 1rem;
     position: relative;
-    margin-top: 50px;
+    margin: 50px 100px 0 100px;
+    color: #000;
+    font-weight: bolder;
+
+    @media screen and (max-width: 768px){
+        margin: 0 auto;
+    }
+
+    @media screen and (max-width: 375px){
+        height: auto;
+        margin: 0 auto;
+    }
+
 `;
 
 export const Description = styled.div`
@@ -28,5 +41,22 @@ export const Description = styled.div`
         text-align: left;
     }
 `;
+export const VideoBg = styled.video`
+    width: 100%;
+    height: 20vh;
+    -o-object-fit: cover;
+    object-fit: cover;
+    transform: translateZ(0);
+`;
 
+export const HeroBg = styled.div`
+    position: absolute;
+    top:  0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow:hidden;
+`;
 
